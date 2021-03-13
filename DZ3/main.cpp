@@ -11,6 +11,7 @@ int main()
     {
         N /= 10;
         digits++;
+
     }
     printf( "Number of digits : %d", digits );
 
