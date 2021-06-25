@@ -8,10 +8,10 @@
 
 int main()
 {
-   int lengh_c=10;
+   int lengh_R_=10;
    int lenght_a= 7;
    int lenght_d= 5;
-   double circle = lengh_c / (2 * M_PI);
+   double circle =pow(lengh_R_,2) *M_PI;
    double triangle =(pow( lenght_a,2) * sqrt(3)) / 4;
    double square = pow(lenght_d, 2);
    printf("S of the circle is %.2f\nS of the triangle is %.2f\nS of  the square is %.2f\n", circle, triangle,square);
